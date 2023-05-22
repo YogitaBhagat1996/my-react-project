@@ -1,12 +1,10 @@
 function MainBody() {
   return (
-    <div>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-        porro hic saepe. Aperiam repellat culpa soluta assumenda molestias! Quis
-        voluptates atque rem libero labore voluptatibus nostrum nesciunt.
-        Veritatis, dolorum voluptate.
-      </p>
+    <div className="alert alert-primary m-0 mb-1">
+      <h1>Notes and Instructions</h1>
+      React lets you build user interfaces out of individual pieces called
+      components. Create your own React components like Thumbnail, LikeButton,
+      and Video. Then combine them into entire screens, pages, and apps.
     </div>
   );
 }
