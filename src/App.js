@@ -1,8 +1,13 @@
+//import Footer from "./pages/Footer";
+import Header from "./pages/Header";
+//import MainBody from "./pages/MainBody";
+import "bootstrap/dist/css/bootstrap.css";
+
+// return JSX.
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-
+      <Header />
       <BootstrapDemo />
     </div>
   );
@@ -11,8 +16,9 @@ function App() {
 function BootstrapDemo() {
   return (
     <div>
-      <h1 className="bg-primary p-3 text-light">Hello React....!!!</h1>
+      <h1 class="bg-primary p-3 text-light">Bootstrap Demo</h1>
     </div>
   );
 }
+
 export default App;
