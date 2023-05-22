@@ -2,22 +2,16 @@ function App() {
   return (
     <div>
       <h1>Hello World</h1>
-      <hr />
-      <Header />
-      <hr />
-      <Header />
+
+      <BootstrapDemo />
     </div>
   );
 }
 
-function Header() {
+function BootstrapDemo() {
   return (
     <div>
-      <p>
-        React lets you build user interfaces out of individual pieces called
-        components. Create your own React components like Thumbnail, LikeButton,
-        and Video. Then combine them into entire screens, pages, and apps.
-      </p>
+      <h1 className="bg-primary p-3 text-light">Hello React....!!!</h1>
     </div>
   );
 }
