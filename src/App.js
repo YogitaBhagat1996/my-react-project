@@ -1,22 +1,21 @@
-//import BootstrapDemo from "./pages/BootstrapDemo";
-import Footer from "./pages/Footer";
-import Header from "./pages/Header";
-import ImageDemo from "./pages/ImageDemo";
-import MainBody from "./pages/MainBody";
-
-// return JSX.
 function App() {
   return (
     <div>
-      <Header />
-      <MainBody />
-      <ImageDemo />
-      <MainBody />
-      <MainBody />
-      <MainBody />
-      <Footer />
+      <h1>Interpolation Demo</h1>
+      <InterpolationBasic />
     </div>
   );
 }
-
+function InterpolationBasic() {
+  return (
+    <div>
+      <h1>Hello World....!!</h1>
+      <p>
+        React lets you build user interfaces out of individual pieces called
+        components. Create your own React components like Thumbnail, LikeButton,
+        and Video. Then combine them into entire screens, pages, and apps.
+      </p>
+    </div>
+  );
+}
 export default App;
